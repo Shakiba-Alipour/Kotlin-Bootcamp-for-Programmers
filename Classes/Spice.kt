@@ -17,6 +17,6 @@ class Spice (var name: String, var spiciness : String = "mild"){
         }
 
     init {
-        print("spicieness: " ${spiciness});
+        print("spicieness: " ${spiciness})
     }
 }
