@@ -8,7 +8,7 @@ open class Book(){
     }
 }
 
-class eBook(){
+class eBook() : Book(){
     var format : String = "text"
     override var currentPage : int = 0
 
